@@ -20,18 +20,3 @@ a:hover{
 #main_section {
     background-color: #c5c4c4;
 }
-
-.header {
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: .5em;
-    background-color: #b6b3b3;
-    position: sticky;
-    width: 100%;
-    top: 0;
-    border-radius: 5px;
-}
-
-.nav {
-    margin-top: 5px;
-}
