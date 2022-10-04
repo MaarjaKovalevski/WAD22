@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
-    height: 100vh;
+    height: 100%;
 }
 
 /* the middle section */
@@ -21,7 +21,7 @@ body{
     flex-flow: row nowrap;
     justify-content: space-evenly;
     flex: 4;
-    margin: 3em 0.5em;
+    margin: 1em 0.5em;
 }
 
 footer {
@@ -29,19 +29,18 @@ footer {
     border: 0.2em solid coral;
     color: red;
     background-color: darkgray;
-    position: sticky;
-    bottom: 0;
+    /* position: sticky; 
+    bottom: 0; */
 }
 
 nav {
     color: blue;
     border: 0.2em outset indianred;
     width: 100%;
-    position: sticky;
+    /*position: fixed; 
+    top: 0;*/
 
     background-color: darkgray;
-    margin-bottom: 1em;
-    top: 0;
 
     /* flex settings*/
     display: flex;
@@ -87,3 +86,7 @@ main {
     height: 80vh;
 }
 
+div + img{
+    margin: auto;
+    display: block;
+}
