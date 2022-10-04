@@ -89,3 +89,14 @@ div + img{
     margin: auto;
     display: block;
 }
+
+
+div ~ p{
+    color: rgb(43, 41, 41);
+}
+
+div > p{
+    color:darkblue;
+}
+
+
