@@ -26,16 +26,16 @@ body{
 
 footer {
     padding: 2em;
-    border: 0.2em solid coral;
-    color: red;
+    border: 0.2em outset rgb(43, 41, 41);
+    /*color: red;- */
     background-color: darkgray;
     /* position: sticky; 
     bottom: 0; */
 }
 
 nav {
-    color: blue;
-    border: 0.2em outset indianred;
+    /*color: blue; */
+    border: 0.2em outset rgb(43, 41, 41) ;
     width: 100%;
     /*position: fixed; 
     top: 0;*/
@@ -50,7 +50,7 @@ nav {
 
 .sidebar {
     padding: 1em;
-    border: 0.2em solid cyan;
+    border: 0.2em solid rgb(43, 41, 41);
     background-color: darkgrey;
     flex: 1;
 }
@@ -64,7 +64,7 @@ nav {
 
 
 main article {
-    border: 0.2em solid olive;
+    border: 0.2em solid rgb(43, 41, 41);
     margin: 0.5em 0.1em;
 }
 
@@ -77,10 +77,9 @@ main article {
 
 
 main {
-    color:gold;
     padding: 3%;
     margin: 0.5em 1em;
-    border: 1em solid sandybrown;
+    border: 1em solid rgb(43, 41, 41);
     flex: 3;
     overflow: auto;
     height: 80vh;
