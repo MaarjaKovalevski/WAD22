@@ -14,9 +14,33 @@ body {
     border-radius: 5px;
 }
 
-.nav {
+/*.nav {
     margin-top: 5px;
 }
+*/
+
+nav {
+    width: 100%;
+    /* flex settings*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.icon {
+    border-radius: 50%;
+    max-width: 5%;
+    height: auto;
+    margin: 0.2em 0.2em;
+}
+
+.feature {
+    position: relative;
+    /* for demo */
+    text-align: right;
+    display: flex;
+  }
 
 
 a {
