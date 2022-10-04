@@ -21,12 +21,14 @@ body{
     flex-flow: row nowrap;
     justify-content: space-evenly;
     flex: 4;
+    margin: 3em 0.5em;
 }
 
 footer {
     padding: 2em;
-    border: 0.5em solid coral;
+    border: 0.2em solid coral;
     color: red;
+    background-color: darkgray;
     position: sticky;
     bottom: 0;
 }
@@ -34,7 +36,11 @@ footer {
 nav {
     color: blue;
     border: 0.2em outset indianred;
+    width: 100%;
     position: sticky;
+
+    background-color: darkgray;
+    margin-bottom: 1em;
     top: 0;
 
     /* flex settings*/
@@ -45,8 +51,8 @@ nav {
 
 .sidebar {
     padding: 1em;
-    border: 0.5em solid cyan;
-    color: bisque;
+    border: 0.2em solid cyan;
+    background-color: darkgrey;
     flex: 1;
 }
 
