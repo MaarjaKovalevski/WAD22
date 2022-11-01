@@ -14,7 +14,7 @@ html {
 footer {
     padding: 2em;
     /*color: red;- */
-    background-color: darkgray;
+    background-color: #433633;
     border-radius: 5px;
     /* position: sticky; 
     bottom: 0; */
@@ -23,13 +23,13 @@ footer {
 .sidebar {
     padding: 1em;
     border-radius: 5px;
-    background-color: darkgrey;
+    background-color: #433633;
     flex: 1;
 }
 
 main article {
     margin: 0.5em 0.1em;
-    background-color:  #c5c4c4;
+    background-color:  #5c5552;
     border-radius: 5px;
 }
 
@@ -54,10 +54,10 @@ div + img{
 
 
 div ~ p{
-    color: rgb(43, 41, 41);
+    color: #f7f0f5;
 }
 
 div > p{
-    color:darkblue;
+    color:#decbb7;
 }
 

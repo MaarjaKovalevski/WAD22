@@ -6,7 +6,8 @@
 }
 
 #main_section {
-    background-color: #c5c4c4;
+    background-color: #433633;
+    color: #f7f0f5;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
@@ -24,8 +25,8 @@ input[type=submit] {
     margin-top: 10px;
     padding: 5px;
     width: 120px;
-    background-color: #19488f;
-    color: #ffffff;
+    background-color: #f7f0f5;
+    color: #433633;
 }
 
 .p1 {
